@@ -40,7 +40,7 @@ http://127.0.0.1:8080/index.html
 
 ### Usage with Docker
 ```bash
- docker build -f Dockerfile -t wrk-example .
+docker build -f Dockerfile -t wrk-example .
 ```
 ```bash
 docker run --rm -e method="get" wrk-example:latest -t1 -c1 -d5s -s post.lua
